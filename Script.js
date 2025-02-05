@@ -1,4 +1,5 @@
-import fetch from "node-fetch";
+//import fetch from "node-fetch";
+const fetch = require('node-fetch')
 
 async function pingAPI() {
     const apiUrl = "https://parrot-backend-m0g3.onrender.com/awake";  // Replace with your actual API
